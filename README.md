@@ -41,6 +41,6 @@ php artisan serve
 Buka: http://localhost:8000/admin
 
 Login Default
-Email: admin@baruga.test
+Email: admin@galung.test
 
 Password: password123
