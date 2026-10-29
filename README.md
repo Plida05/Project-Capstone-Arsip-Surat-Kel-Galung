@@ -28,7 +28,7 @@ Aplikasi web untuk mengelola arsip surat masuk & keluar di Kelurahan Galung. Dib
 ## Cara Install
 
 ```bash
-git clone https://github.com/Plida05/Project-Arsip-Surat-Kelurahan-Galung.git arsip_surat
+git clone https://github.com/Plida05/Project-Capstone-Arsip-Surat-Kel-Galung.git arsip_surat
 cd arsip_surat
 composer install
 cp .env.example .env
@@ -41,6 +41,6 @@ php artisan serve
 Buka: http://localhost:8000/admin
 
 Login Default
-Email: admin@baruga.test
+Email: admin@galung.test
 
 Password: password123
