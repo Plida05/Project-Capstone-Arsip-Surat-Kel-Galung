@@ -7,15 +7,28 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Times New Roman', serif; padding: 2cm; color: #000; }
 
+        /* CSS KOP SURAT YANG DIPERBARUI */
         .kop {
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
             border-bottom: 3px double #000;
             padding-bottom: 15px;
             margin-bottom: 30px;
         }
-        .kop h1 { font-size: 18px; letter-spacing: 1px; }
-        .kop h2 { font-size: 22px; font-weight: bold; margin: 5px 0; }
-        .kop p { font-size: 12px; font-style: italic; }
+        .kop-logo {
+            position: absolute;
+            left: 0;
+            height: 85px; /* Sesuaikan ukuran logo di sini jika kurang besar/kecil */
+        }
+        .kop-text {
+            text-align: center;
+            width: 100%;
+        }
+        .kop-text h1 { font-size: 18px; letter-spacing: 1px; }
+        .kop-text h2 { font-size: 22px; font-weight: bold; margin: 5px 0; }
+        .kop-text p { font-size: 12px; font-style: italic; }
 
         .title {
             text-align: center;
@@ -89,10 +102,15 @@
 
     <!-- KOP SURAT -->
     <div class="kop">
-        <h1>PEMERINTAH KOTA ___________</h1>
-        <h1>KECAMATAN ___________</h1>
-        <h2>KELURAHAN GALUNG</h2>
-        <p>Jl. ______________________ No. ___ Telp. (____) ___________</p>
+        <!-- Pastikan file logo ada di folder public/images/logo-majene.jpg -->
+        <img src="{{ asset('images/logo-majene.jpg') }}" alt="Logo Majene" class="kop-logo">
+
+        <div class="kop-text">
+            <h1>PEMERINTAH KAB MAJENE</h1>
+            <h1>KECAMATAN BANGGAE</h1>
+            <h2>KELURAHAN GALUNG</h2>
+            <p>Jl. Manunggal Lingkungan Galung Selatan</p>
+        </div>
     </div>
 
     <!-- TITLE -->
@@ -142,7 +160,7 @@
                 <td>:</td>
                 <td>{{ \Carbon\Carbon::parse($surat->tanggal_surat)->isoFormat('D MMMM Y') }}</td>
             </tr>
-            @if($surat->tanggal_terima)
+            @if($surat->jenis === 'masuk' && $surat->tanggal_terima)
             <tr>
                 <td>Tanggal Diterima</td>
                 <td>:</td>
