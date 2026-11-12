@@ -30,6 +30,14 @@ A web-based digital archiving system engineered to replace manual paper-based tr
 
 ## 📸 Screenshots
 
+### 1. Tampilan Dashboard Analitik
+![Dashboard 1](documentasi_arsip_surat/DASHBOARD1.png)
+![Dashboard 2](documentasi_arsip_surat/DASHBOARD2.png)
+
+### 2. Tampilan Manajemen Arsip Surat
+![Menu Arsip Surat](documentasi_arsip_surat/MENU_ARSIP_SURAT.png)
+![Menu Arsip Surat](documentasi_arsip_surat/MENU_ARSIP_SURAT1.png)
+
 
 
 ## ⚙️ How to Install (Local Development)
