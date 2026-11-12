@@ -64,11 +64,3 @@ Password: password123
 
 ---
 
-### 💡 Langkah Terakhir (Opsional tapi Penting)
-Di dalam repo Capstone-mu, coba klik **About** (ikon gerigi di sebelah kanan atas halaman repo).
-1. Tambahkan **Description**: *"Web-based digital archiving system for Kelurahan Galung built with Laravel & Filament."*
-2. Tambahkan **Topics**: `laravel`, `filament`, `mysql`, `web-development`, `capstone-project`.
-
-Kalau semua ini udah kamu *commit*, profil GitHub dan repo Capstone-mu bakal kelihatan **super profesional**. 
-
-Silakan dieksekusi, dan kabarin kalau udah beres atau kalau ada yang *error*! 🚀
