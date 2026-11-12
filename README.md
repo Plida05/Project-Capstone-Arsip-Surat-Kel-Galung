@@ -35,8 +35,8 @@ A web-based digital archiving system engineered to replace manual paper-based tr
 ![Dashboard 2](documentasi_arsip_surat/DASHBOARD2.png)
 
 ### 2. Tampilan Manajemen Arsip Surat
-![Menu Arsip Surat](documentasi_arsip_surat/MENU_ARSIP_SURAT.png)
 ![Menu Arsip Surat](documentasi_arsip_surat/MENU_ARSIP_SURAT1.png)
+![Menu Arsip Surat](documentasi_arsip_surat/MENU_ARSIP_SURAT.png)
 
 
 
